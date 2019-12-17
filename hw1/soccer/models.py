@@ -38,6 +38,7 @@ class Player(models.Model):
     first_name = models.TextField()
     last_name = models.TextField()
     year_of_birth = models.IntegerField()
+   # position = models.CharField(max_length=1,choices=CHOICES)
     scorrer_points = models.PositiveIntegerField(help_text="Goals and Asissts")
 
 
